@@ -4,4 +4,7 @@ public class HelloWorld {
         System.out.println("Hello, Arthur from Denis : Alexandr! :P");
         System.out.println("Hello, Arthur from Kate :)!");
 
+        System.out.println("Hello, Arthur from Bogdan :)!");
+
+    }
 }
