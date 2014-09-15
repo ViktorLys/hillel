@@ -6,7 +6,7 @@ public class HelloWorld {
         System.out.println("Hello, Arthur from Kate :)!");
         System.out.println("");
         System.out.println("Hello, Arthur from Bogdan :)!");
-        System.out.println("Hello, Arthur from Denis Antonov");
+        System.out.println("Hello, Arthur from  :)!");
 
     }
 }
