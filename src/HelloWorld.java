@@ -1,12 +1,11 @@
-public class HelloWorld
-{
-  public static void main(String[] args)
-  {
+public class HelloWorld {
 
-    System.out.println("Hello, Arthur from Denis : Alexandr! :P");
-    System.out.println("Hello, Arthur from Kate :)!");
+    public static void main(String[] args) {
 
-    System.out.println("Hello, Arthur from Bogdan :)!");
-    System.out.println("Hello, Arthur from Vitya !");
-  }
+        System.out.println("Hello, Arthur from Denis : Alexandr! :P");
+        System.out.println("Hello, Arthur from Kate :)!");
+        System.out.println("");
+        System.out.println("Hello, Arthur from Bogdan :)!");
+
+    }
 }
