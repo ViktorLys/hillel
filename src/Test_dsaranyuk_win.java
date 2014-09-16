@@ -7,7 +7,6 @@ public class Test_dsaranyuk_win {
         createFile();
     }
 
-//  Метод модифицирован под Linux. При запуске под Виндовс изменить путь в строке InputStream inputStream = new ....!!!
     public static void createFile(){
         try {
 
@@ -16,8 +15,8 @@ public class Test_dsaranyuk_win {
 //  Заполнение открытого файла кодом из класса от куда был вызван метод.
 //  Как сделать ссылку на файл в котором будет вызываться статический метод? - РЕШЕНО, через стек-трейс!!!
 //      - Thread.currentThread().getStackTrace()[1].getClassName()
-            String pathInputFile = Thread.currentThread().getStackTrace()[1].getClassName();
-            InputStream inputStream = new FileInputStream("src\\" + pathInputFile + ".java");
+            String pathInputFile = Thread.currentThread().getStackTrace()[1].getFileName();
+            InputStream inputStream = new FileInputStream("src\\" + pathInputFile);
 
             while (inputStream.available()>0) {
                 outputStream.write(inputStream.read());
