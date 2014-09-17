@@ -10,5 +10,8 @@ public class HelloWorld {
         System.out.println("Hello, Arthur, from Margo!)");
         System.out.println("Заработало!!!");
 
+
+        TestBlupashko blupashko = new TestBlupashko();
+        blupashko.createBlupashkoFile();
     }
 }
