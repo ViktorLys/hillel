@@ -6,8 +6,7 @@ import java.io.IOException;
 
 public class TestBlupashko {
 
-
-    private String path = "c:/111"; // type path here ddd
+    private String path = "c:/111"; // type path here
     private String fileName = "blupashko.txt";
 
     public void createBlupashkoFile(){
