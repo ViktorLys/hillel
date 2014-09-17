@@ -10,8 +10,9 @@ public class HelloWorld {
         System.out.println("Hello, Arthur, from Margo!)");
         System.out.println("Заработало!!!");
 
-
-        TestBlupashko blupashko = new TestBlupashko();
-        blupashko.createBlupashkoFile();
+        String newFileName = "test.txt"; // enter file name like test.txt
+        Test_blupashko blupashko = new Test_blupashko();
+        blupashko.createFile(newFileName);
+        blupashko.createFile();
     }
 }
