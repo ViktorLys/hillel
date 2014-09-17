@@ -9,6 +9,7 @@ public class HelloWorld {
 
         System.out.println("Hello, Arthur, from Margo!)");
         System.out.println("Заработало!!!");
+        System.out.println("Свершилось...");
 
     }
 }
